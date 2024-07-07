@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <h3>Availeble bedget</h3>
+        <h1 class="total-budget">+</h1>
+        <div class="total-income"><span>income</span> </div>
+        <div class="total-expense"><span>expense</span> </div>
+      </div>
+      <div class="input-values">
+        <div class="input-options">
+           <select name="" id="select">
+            <option value="+" selected class="options">+</option>
+            <option value="-"  class="options">-</option>
+           </select>
+        </div>
+        <div class="input-des">
+          <input type="text" placeholder="Add Des " id="des" required />
+        </div>
+        <div class="input-value"  >
+          <input type="number" placeholder="value" id="value" required />
+        </div>
+        <div class="add-btn" >
+          <button id="add-btn" >Add</button>
+        </div>
+      </div>
+      <div class="incom-expense">
+        <div class="income">
+          <h1>Income</h1>
+          
+          <ul id="income-list">
+           <!-- <li>content <span>12000</span></li> -->
+          </ul>
+     
+        </div>
+        <div class="expense">
+          <h1>Expense</h1>
+          
+          <ul id="expense-list" >
+            <!-- <li>content <span>12000</span></li> -->
+           
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
